@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Screenshot%20Compression"
+logoFile="icon.png"
+
+[[mods]]
+modId="screenshotcompression"
+version="1.0"
+displayName="Screenshot Compression"
+displayURL="https://serilum.com/mod/screenshot-compression"
+authors="Rick South"
+description='''Automatically compress screenshots taken in-game to lower file size with various config options.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, David Sanchez, drdog111, Michael W. S., t128, Tyler Behl, XAgent   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.screenshotcompression]]
+    modId="collective"
+    type="required"
+    mandatory=true
+    versionRange="[7.91,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.screenshotcompression]]
+    modId="minecraft"
+    type="required"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
