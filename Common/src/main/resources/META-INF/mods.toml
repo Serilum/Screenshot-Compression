@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="screenshotcompression"
-version="1.0"
+version="1.1"
 displayName="Screenshot Compression"
 displayURL="https://serilum.com/mod/screenshot-compression"
 authors="Rick South"
