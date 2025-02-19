@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "screenshotcompression",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Screenshot Compression",
   "description": "Automatically compress screenshots taken in-game to lower file size with various config options.",
