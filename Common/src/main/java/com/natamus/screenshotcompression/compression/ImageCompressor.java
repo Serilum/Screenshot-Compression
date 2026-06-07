@@ -136,7 +136,7 @@ public class ImageCompressor {
 
         double outputSize = (double)outputFile.length();
         String percentage = (new DecimalFormat("#.00")).format((1 - Math.abs((outputSize - inputSize) / inputSize)) * 100);
-        Minecraft.getInstance().gui.getChat().addMessage(Component.literal(" > Compressed screenshot output size: ").withStyle(ChatFormatting.DARK_GRAY).append(Component.literal(percentage + "%").withStyle(ChatFormatting.GRAY)));
+        Minecraft.getInstance().gui.getChat().addMessage(Component.translatable("collective.screenshotcompression.gui.compressedscreenshotoutput", Component.literal(percentage + "%").withStyle(ChatFormatting.GRAY)).withStyle(ChatFormatting.DARK_GRAY));
     }
 
     private static boolean isValidImage(File file) {
