@@ -142,7 +142,7 @@ public class ImageCompressor {
         minecraft.execute(() -> {
             LocalPlayer localPlayer = minecraft.player;
             if (localPlayer != null) {
-                localPlayer.sendSystemMessage(Component.literal(" > Compressed screenshot output size: ").withStyle(ChatFormatting.DARK_GRAY).append(Component.literal(percentage + "%").withStyle(ChatFormatting.GRAY)));
+                localPlayer.sendSystemMessage(Component.translatable("collective.screenshotcompression.gui.compressedscreenshotoutput", Component.literal(percentage + "%").withStyle(ChatFormatting.GRAY)).withStyle(ChatFormatting.DARK_GRAY));
             }
         });
     }
