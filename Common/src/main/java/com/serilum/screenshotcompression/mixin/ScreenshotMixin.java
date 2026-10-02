@@ -1,8 +1,8 @@
-package com.natamus.screenshotcompression.mixin;
+package com.serilum.screenshotcompression.mixin;
 
 import com.mojang.blaze3d.pipeline.RenderTarget;
 import com.mojang.blaze3d.platform.NativeImage;
-import com.natamus.screenshotcompression.compression.ImageCompressor;
+import com.serilum.screenshotcompression.compression.ImageCompressor;
 import net.minecraft.client.Screenshot;
 import net.minecraft.network.chat.Component;
 import org.spongepowered.asm.mixin.Mixin;
@@ -16,8 +16,8 @@ import java.util.function.Consumer;
 
 @Mixin(value = Screenshot.class, priority = 1001)
 public class ScreenshotMixin {
-    @Inject(method = "_grab(Ljava/io/File;Ljava/lang/String;Lcom/mojang/blaze3d/pipeline/RenderTarget;Ljava/util/function/Consumer;)V", at = @At(value = "TAIL"), locals = LocalCapture.CAPTURE_FAILSOFT)
-    private static void _grab(File file, String name, RenderTarget renderTarget, Consumer<Component> componentConsumer, CallbackInfo ci, NativeImage nativeImage, File folder, File screenshotFile) {
-        ImageCompressor.runScreenshotCompressThread(screenshotFile);
-    }
+	@Inject(method = "_grab(Ljava/io/File;Ljava/lang/String;Lcom/mojang/blaze3d/pipeline/RenderTarget;Ljava/util/function/Consumer;)V", at = @At(value = "TAIL"), locals = LocalCapture.CAPTURE_FAILSOFT)
+	private static void _grab(File file, String name, RenderTarget renderTarget, Consumer<Component> componentConsumer, CallbackInfo ci, NativeImage nativeImage, File folder, File screenshotFile) {
+		ImageCompressor.runScreenshotCompressThread(screenshotFile);
+	}
 }

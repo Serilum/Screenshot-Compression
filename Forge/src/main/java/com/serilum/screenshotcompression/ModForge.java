@@ -1,9 +1,9 @@
-package com.natamus.screenshotcompression;
+package com.serilum.screenshotcompression;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.screenshotcompression.forge.config.IntegrateForgeConfig;
-import com.natamus.screenshotcompression.util.Reference;
+import com.serilum.screenshotcompression.forge.config.IntegrateForgeConfig;
+import com.serilum.screenshotcompression.util.Reference;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;

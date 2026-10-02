@@ -1,7 +1,7 @@
-package com.natamus.screenshotcompression.fabric.config;
+package com.serilum.screenshotcompression.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.screenshotcompression.util.Reference;
+import com.serilum.screenshotcompression.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

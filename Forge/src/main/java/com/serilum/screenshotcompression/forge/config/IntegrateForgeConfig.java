@@ -1,7 +1,7 @@
-package com.natamus.screenshotcompression.forge.config;
+package com.serilum.screenshotcompression.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.screenshotcompression.util.Reference;
+import com.serilum.screenshotcompression.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

@@ -1,7 +1,7 @@
-package com.natamus.screenshotcompression.compression.managers;
+package com.serilum.screenshotcompression.compression.managers;
 
-import com.natamus.screenshotcompression.data.Constants;
-import com.natamus.screenshotcompression.util.Reference;
+import com.serilum.screenshotcompression.data.Constants;
+import com.serilum.screenshotcompression.util.Reference;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

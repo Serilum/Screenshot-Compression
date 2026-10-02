@@ -1,6 +1,6 @@
-package com.natamus.screenshotcompression;
+package com.serilum.screenshotcompression;
 
-import com.natamus.screenshotcompression.config.ConfigHandler;
+import com.serilum.screenshotcompression.config.ConfigHandler;
 
 public class ModCommon {
 

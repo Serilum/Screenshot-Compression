@@ -1,7 +1,7 @@
-package com.natamus.screenshotcompression.config;
+package com.serilum.screenshotcompression.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.screenshotcompression.util.Reference;
+import com.serilum.screenshotcompression.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

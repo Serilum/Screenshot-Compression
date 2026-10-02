@@ -1,7 +1,7 @@
-package com.natamus.screenshotcompression;
+package com.serilum.screenshotcompression;
 
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.screenshotcompression.util.Reference;
+import com.serilum.screenshotcompression.util.Reference;
 import net.fabricmc.api.ClientModInitializer;
 
 public class ModFabricClient implements ClientModInitializer {
